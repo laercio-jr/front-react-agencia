@@ -8,11 +8,11 @@ function Home () {
                 <br />
                 <br />
             </div>
-            <article class="container text-center inner cover">
-                <h1 class="cover-heading">Bem vindo a AgênciaLJ.</h1>
-                <p class="lead">Compre suas passagens por um preço acessível, além de ter a comodidade de contratar um guia turístico com facilidade, por uma taxa de custo!</p>
-                <p class="lead">
-                    <a href="../Destinos/Cadastrar" class="btn btn-lg btn-secondary">Conferir destinos disponíveis</a>
+            <article className="container text-center inner cover">
+                <h1 className="cover-heading">Bem vindo a AgênciaLJ.</h1>
+                <p className="lead">Compre suas passagens por um preço acessível, além de ter a comodidade de contratar um guia turístico com facilidade, por uma taxa de custo!</p>
+                <p className="lead">
+                    <a href="http://localhost:3000/Destinos" className="btn btn-lg btn-secondary">Conferir destinos disponíveis</a>
                 </p>
             </article>
         </section>

@@ -13,8 +13,7 @@ function Main (){
 
     return(
         <main role="main" className="container fundo-gradiente pb-3">
-            <Routes/>
-            {/*
+            {
                 atual == 'http://localhost:3000/Home' ? <Home/>
                 :
                 atual == 'http://localhost:3000/Destinos' ? <Destinos/>
@@ -25,7 +24,7 @@ function Main (){
                 :
                 atual == 'http://localhost:3000/Contato' ? <Contato/>
                 : 
-                'Conteúdo não existente'         */ 
+                'Conteúdo não existente'   
             }
         </main>
     );
